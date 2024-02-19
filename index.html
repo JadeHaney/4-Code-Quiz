@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coding Quiz</title>
+    <link rel="stylesheet" href="assets/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div id="quiz-container">
+        <h1>Coding Quiz</h1>
+        <button id="start-btn">Start Quiz</button>
+        <div id="question-container" class="hide">
+          <p id="question-text">Question Text</p>
+          <div id="answers-container">
+            <button class="answer-btn">Answer 1</button>
+            <button class="answer-btn">Answer 2</button>
+            <button class="answer-btn">Answer 3</button>
+            <button class="answer-btn">Answer 4</button>
+          </div>
+        </div>
+      </div>
+      <div class="results-container">
+        <p id="score-message"></p>
+        <!-- Define score message element here -->
+        <div id="timer">Time: 60</div>
+        <!-- Define timer element here -->
+        <form id="initials-form" class="hide">
+          <label for="initials">Enter your initials:</label>
+          <input type="text" id="initials" name="initials" />
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+    <script src="assets/script.js"></script>
+  </body>
+</html>
